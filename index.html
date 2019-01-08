@@ -27,35 +27,7 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <script>
-        function about()
-        {
-            location.href = "#about";
-        }
-    </script>
-    <script>
-        function work()
-        {
-            location.href = "#work";
-        }
-    </script>
-    <script>
-        function projects()
-        {
-            location.href = "#projects";
-        }
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-        $('.smooth').on('click', function() {
-            $.smoothScroll({
-                scrollElement: $('body'),
-                scrollTarget: '#' + this.id
-            });
-            return false;
-        });
-    </script>
+    
 </head> 
 
 <body>
@@ -70,11 +42,6 @@
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/karma-patel/"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/karmapatel8495"><i class="fab fa-github-alt"></i></a></li>    
                 </ul> 
-                <ul class="social list-inline">
-                    <li class="list-inline-item"><button type="button" class="btn btn-outline-dark" onclick=" about()">About Me</button></li>
-                    <li class="list-inline-item"><button type="button" class="btn btn-outline-dark" onclick=" work()">Work Experience</button></li>
-                    <li class="list-inline-item"><button type="button" class="btn btn-outline-dark" onclick=" projects()">Projects</button></li>
-                </ul>
             </div><!--//profile-->
         </div><!--//container-->
     </header><!--//header-->
@@ -82,8 +49,7 @@
         <div class="row">
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
-                    <div id="aboutdiv" class="section-inner">
-                        <a id="about" class="smooth"></a>
+                    <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content" align="justify">
                             <p>Karma graduated from the Indian Institute of Technology (IIT) with a bachelor’s degree in Mechanical Engineering. In addition to his core courses, Karma also undertook numerous projects and courses from diverse fields such as computer science, software engineering, and management. Following his graduation, Karma joined Hong Kong and Shanghai Banking Corporation (HSBC) as a Software Engineer, working on Java, Python, SQL, Web Development Frameworks and Automation. At HSBC, he worked for the Commercial Banking (CMB) vertical and was a member of the GTRF Innovation Lab founding team. He was highly appreciated for his innovation initiatives and quality of work, which earned him a “Star Award” for his work on automating user profile creation process that reduced the per profile time from 2 hours to 1.5 minutes. Karma also worked within other roles, including Subject Matter Expert and Architect In-charge. <br><br>    
@@ -92,8 +58,7 @@
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->
-                    <div id="workdiv" class="section-inner">
-                        <a id="work" class="smooth"></a>
+                    <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content" align="justify">
                             <span class="title"><strong>Software Engineer - Hong Kong and Shanghai Banking Corporation (HSBC)</strong></span>
@@ -121,8 +86,7 @@
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->   
-                    <div id="projectsdiv" class="section-inner">
-                        <a id="projects" class="smooth"></a>
+                    <div class="section-inner">
                         <h2 class="heading">Projects</h2>
                         <div class="content" align="justify">
                             <p>Projects</p>
